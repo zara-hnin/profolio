@@ -350,6 +350,7 @@ header nav ul li a:hover {
 .experience .music-product .header-container h2,
 .experience .map-design .header-container h2 {
     margin-bottom: 15px;
+    transition: color 0.3s;
 }
 .experience .mobile-app .iconContianer,
 .experience .music-product .iconContianer,
@@ -364,6 +365,12 @@ header nav ul li a:hover {
 .experience .music-product .iconContianer img,
 .experience .map-design .iconContianer img {
     transition: transform 0.3s;
+}
+.experience .mobile-app:hover .header-container h2,
+.experience .music-product:hover .header-container h2,
+.experience .map-design:hover .header-container h2 {
+    color: var(--red);
+    transition: color 0.3s;
 }
 .experience .mobile-app:hover .iconContianer img,
 .experience .music-product:hover .iconContianer img,
