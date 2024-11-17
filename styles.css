@@ -241,7 +241,7 @@ header nav ul li a:hover {
     align-items: stretch;
     width: 100%;
     flex-direction: column-reverse;
-    padding-top: 150px;
+    padding-top: 110px;
 }
 .experience .recent-work {
     padding-inline: 20px;
@@ -624,6 +624,9 @@ footer ul li a:hover {
         padding-inline: 30px;
         padding-block: 50px;
     }
+    .experience {
+        padding-top: 150px;
+    } 
     .banner .header-section {
         margin-bottom: 55px;
     }
